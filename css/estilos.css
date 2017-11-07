@@ -41,6 +41,16 @@
 .espacio-boton {
 	margin-right: 5px;
 }
-h2 {
-    color:#red;
+
+
+.btn-youtube { 
+
+  background-color:#DC2725;
+  text-decoration: none;
+   color:white !important;
 }
+
+.btn-youtube:hover {
+ 
+  background-color: #c82333;
+ 
