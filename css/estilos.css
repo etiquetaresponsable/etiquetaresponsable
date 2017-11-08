@@ -58,3 +58,32 @@
 .textos {
   color: green;
 }
+
+@media (max-width:800px) {
+    #carouselContainer {
+        display:none !important;
+    }
+
+    @media (max-width:800px) {
+    #imagen1 {
+        display:none !important;
+    }
+}
+
+ @media (max-width:800px) {
+    #imagen2 {
+        display:none !important;
+    }
+}
+
+ @media (max-width:800px) {
+    #imagen3 {
+        display:none !important;
+    }
+}
+
+@media (max-width:800px) {
+    #imagen4 {
+        display:none !important;
+    }
+}

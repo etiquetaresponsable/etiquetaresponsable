@@ -26,9 +26,9 @@
     <div class="container-fluid">
     	<br>
       <div class="row">
-    		<div class="col-3 pull-left">
+    		<div class="col-xs-3 col-md-3  pull-left">
 
-		  	  <img class="img-responsive" src="img/logo.png">
+		  	  <img src="img/logo.png">
 	     	</div>
      		<div class="col-9 pull-right">  	
         <div>      
@@ -38,9 +38,14 @@
           </div>
             <div>
       <!--barra de navegación-->
-          <nav class="navbar navbar-expand-lg navbar-light" >
-            <div id="navbarNav">
-              <ul class="navbar-nav visible-xs-block">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+  <ul class="navbar-nav">
 
                 <li class="nav-item active"> <button type="button" class="btn btn-success navbar-btn espacio-boton">
                   <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a> </button>
@@ -68,7 +73,8 @@
    <!-- <div>  <hr class="estilo2"> </div>
     <div>  <hr class="estilo3"> </div>
 <!-- carrousel-->
-    <div id="carouselExampleIndicators" class="carousel slide hidden-xs" data-ride="carousel">
+<div id="carouselContainer">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -106,30 +112,33 @@
         <span class="sr-only">Next</span>
       </a>
     </div> <!-- Cierra carrousel -->
+</div>
     <br>
  </header>
  <div class="container-fluid">
+ 	<section>
   <div class="main row">
     <div class="col-xs-3 col-sm-4 col-md-2">
        <br><br>
-         <div>
+         <div class="text-center">
        <img src="img/etiquetaqr.png">
                 
          </div>
       
        <br><br>
          <div>
-           <img src="img/reciclable.png">
+           <img id="imagen1" src="img/reciclable.png">
                 
          </div>
  
        <br><br>
-        <div>
-           <img src="img/maquina.png">
+        <div >
+           <img id="imagen2" src="img/maquina.png">
                 
          </div>
     
     </div>
+
     <article class="col-xs-9 col-sm-8 col-md-7">
       <h2>Lo que debemos saber</h2>
        <hr class="estilo3">
@@ -138,30 +147,38 @@
           Y en el imaginario popular sobre malas prácticas laborales, el sector textil sale muy mal parados. Para responder a un creciente reclamo social, nuestro instituto promueve una etiqueta responsable, que garantiza que los productos que la luzcan cumplen unos compromisos éticos mínimos.
           El nuestro es un proyecto que, basado en los principios del comercio justo, busca ofrecer vestimenta desde dos origenes totalmente diferentes: el algodón y la lana.
           Los estandares a cumplir por las prendas son un compendio de normas en cuatro campos. Las empresas deben contar con:
-         <h6><b>- Un certificado de gestión ambiental:</b></h6>
+         <h6><b>- Certificado de gestión ambiental:</b></h6>
           <p>
             Las técnicas de su cultivo mejoran la fertilidad del suelo, proteje la superficie de la tierra y las napas de agua de la exposición a sustancias tóxicas.  
           </p>
-         <h6><b>- Un código de conducta y responsabilidad social:</b></h6>
+         <h6><b>- Código de conducta y responsabilidad social:</b></h6>
            <p>
              Respetando así los derechos humanos de los trabajadores a lo largo del proceso de elaboración.
            </p>
-         <h6><b>- Una garantía de producción:</b></h6>
+         <h6><b>- Garantía de producción:</b></h6>
          <p>
           Que los productos están exentos de sustancias nocivas para la salud, que durante la producción de las prendas no se utilizan agroquímicos tóxicos y que los estampados se realizan con tintas de bajo impacto ambiental.  
          </p>
          <h6><b>- Contacto para reciclado</b></h6>
          <p>
-           Seguridad que una vez terminada su vida útil, las prendas podrán ser recicladas y transformadas e otro producto por medio de contactos previos.
+           Seguridad de que una vez terminada su vida útil, las prendas podrán ser recicladas y transformadas e otro producto por medio de contactos previos.
          </p> 
-         <br>
+         
          Nuestra etiqueta <i>cuatro en uno</i> pretende dar respuesta a las exigencias éticas de los consumidores.
         </p>
     </article>                              
     <aside class="col-xs-12 col-sm-12 col-md-3">
       <div>
-      <img class="img-responsive" src="img/datos.gif"></div>
+      	
+      	<br>
+      	<div>
+      <img class="img-responsive" id="imagen3" src="img/ciclo.gif">
+  </div>
+      <div>
+      <img class="img-responsive" id="imagen4" src="img/datos.gif">
+  </div>
     </aside>
+    </section>
  </div>   
 <!--Pie de página-->
 <footer>
